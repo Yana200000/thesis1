@@ -16,6 +16,12 @@ import pathlib
 from pathlib import Path  
 
 
+# In[1]:
+
+
+pip install yadisk
+
+
 # In[170]:
 
 

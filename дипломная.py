@@ -84,7 +84,7 @@ class UserService:
             
 if __name__ == '__main__':
     path = Path('Desktop', "photos_vk")
-    user = UserService(1, '99f02b97e028bc3acac91af81cf51f45f0fa06703237f982f86d685829ba435b0aab6d9021a06b31cf1b3', 'AQAAAABK4QapAADLW7vuAGqvb0a_rCEc0-DPCzU', path)
+    user = UserService(..., '...', '...', path)
     save_photos = user.download_photo()
     user.create_folder()
     back_up = user.upload()
